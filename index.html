@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff7f2">
+  <meta name="description" content="A little corner of the internet made to celebrate you.">
+  <title>Happy Birthday!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Birthday home"><span class="brand-icon">✳</span> a little celebration</a>
+      <span class="top-note">made with love <span aria-hidden="true">♡</span></span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="birthday-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> TODAY IS ALL ABOUT YOU <span class="eyebrow-line"></span></p>
+          <h1 id="birthday-title">Happy Birthday,<br><span>you wonderful human.</span></h1>
+          <p class="intro">Another trip around the sun, and the world is a little brighter because you’re in it. Here’s to a day full of your favorite things.</p>
+          <button class="celebrate-button" id="celebrate-button" type="button">
+            <span>Let’s celebrate</span><span class="button-sparkle" aria-hidden="true">✦</span>
+          </button>
+          <p class="microcopy">Psst… there’s a little surprise in the cake <span aria-hidden="true">↓</span></p>
+        </div>
+
+        <div class="birthday-art" aria-label="Illustration of a birthday cake with candles">
+          <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+          <span class="spark spark-three">✦</span><span class="spark spark-four">✧</span>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="cake-wrap">
+            <div class="candles" id="candles" aria-label="Lit birthday candles">
+              <button class="candle candle-left" type="button" aria-label="Blow out candle"><span class="flame"></span><span class="wick"></span></button>
+              <button class="candle candle-mid" type="button" aria-label="Blow out candle"><span class="flame"></span><span class="wick"></span></button>
+              <button class="candle candle-right" type="button" aria-label="Blow out candle"><span class="flame"></span><span class="wick"></span></button>
+            </div>
+            <div class="cake-top"></div>
+            <div class="cake icing"><span class="drip drip-one"></span><span class="drip drip-two"></span><span class="drip drip-three"></span><span class="drip drip-four"></span><span class="drip drip-five"></span></div>
+            <div class="cake lower"><span class="berry berry-one"></span><span class="berry berry-two"></span><span class="berry berry-three"></span></div>
+            <div class="plate"></div>
+          </div>
+          <div class="art-caption"><span class="caption-dot"></span> baked with extra joy</div>
+        </div>
+      </section>
+
+      <section class="wish-card" id="wish-card" aria-live="polite">
+        <div class="wish-icon" aria-hidden="true">✿</div>
+        <div><p class="wish-label">A LITTLE BIRTHDAY WISH</p><p class="wish-text">May this year bring you <strong>big laughs, soft mornings,</strong> and all the good things you’ve been hoping for.</p></div>
+        <span class="wish-star" aria-hidden="true">✦</span>
+      </section>
+
+      <section class="moments" aria-label="Birthday reminders">
+        <article class="moment"><span class="moment-icon peach">☀</span><div><h2>Take the day off</h2><p>Your only plan: enjoy every minute.</p></div></article>
+        <article class="moment"><span class="moment-icon lilac">♡</span><div><h2>Make a little wish</h2><p>You deserve to see it come true.</p></div></article>
+        <article class="moment"><span class="moment-icon mint">✧</span><div><h2>Save room for cake</h2><p>Today, the extra slice is mandatory.</p></div></article>
+      </section>
+    </main>
+
+    <footer><span>Here’s to you, today and every day.</span><span class="footer-heart">♥</span></footer>
+  </div>
+  <div class="confetti-layer" id="confetti-layer" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status">Make a wish! ✨</div>
+</body>
+</html>
